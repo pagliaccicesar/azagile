@@ -565,6 +565,10 @@ a {
   font-weight: bold;
   line-height: 1.2;
   color: rgb(248, 26, 26);
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px red;
+
 }
 
 .copy {
@@ -823,6 +827,7 @@ a {
   flex-basis: 100%;
   text-align: center;
   color: var(--darkerGrey);
+  font-size: small;
 }
 
 .dotted-link {
@@ -889,6 +894,7 @@ a {
   }
 
   .copyright {
+    font-size:medium;
     grid-area: copyright;
     margin: 0;
   }
